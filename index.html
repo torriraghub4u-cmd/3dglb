@@ -44,5 +44,19 @@ model-viewer {
   auto-rotate>
 </model-viewer>
 
+window.playAnim1 = function() {
+    const mv = document.getElementById("mv");
+    mv.animationName = "Animation_1";
+    mv.currentTime = 0;
+    mv.play();
+}
+
+window.playAnim2 = function() {
+    const mv = document.getElementById("mv");
+    mv.animationName = "Animation_2";
+    mv.currentTime = 0;
+    mv.play();
+}
+
 </body>
 </html>
